@@ -1,0 +1,7 @@
+echo "# uefa-qualifying" >> README.md
+git init
+git add app.py bracket.csv requirements.txt
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/reganpap/uefa-qualifying.git
+git push -u origin main
